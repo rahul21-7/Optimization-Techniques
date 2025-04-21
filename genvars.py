@@ -5,6 +5,8 @@ import random as random
 # size_of_population = random.randint(1,1000)
 size_of_population = int
 
+type_of_crossover = "single_point_crossover"
+
 
 initial_random_population = np.random.rand(size_of_population)
 

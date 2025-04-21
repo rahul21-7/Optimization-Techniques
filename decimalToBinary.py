@@ -1,7 +1,6 @@
 import numpy as np
-arr = np.array
+arr = np.array()
 
 def decToBinaryForNpArray(arr):
-    binStr = ""
-    for val in arr:
-        binStr += str(bin(val))
+    binStr = [bin(val)[2:] for val in arr]
+    return np.array(binStr,dtype=str)
