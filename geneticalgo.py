@@ -46,4 +46,4 @@ def geneticAlgorithm(population_size, max_iterations):
         print(population,"\n")
         print("==================================================================\n")
 
-geneticAlgorithm(3,2)
+geneticAlgorithm(3,4)
